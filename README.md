@@ -11,19 +11,19 @@ You would need [Android Studio](https://developer.android.com/studio) and [Githu
 Click on [Use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) button for create repository copy (please do not fork it :ghost:)
 
 # :boat: Quests
-## Fit the Locals
+## :star2: Fit the Locals
 Compose provides special mechanism to propagate objects across composable functions called `CompositionLocal`. Main screen uses `SystemUiController` which is not currently provided. This triggers application crash in runtime. Your task is to find most appropriate place to provide this object.
 
-## Knives Out!
+## :star2: Knives Out!
 The project uses simple dependency container. Let's improve it by implementing proper [Dagger/Hilt](https://github.com/google/dagger) DI solution.
 
-## Let There Be Light
+## :star2: Let There Be Light
 Compose allows us to easily support both dark and light themes. Application already has all colors prepared, your task is to add implementation which would switch theme automatically depending on system settings.
 
-## The missing Block
+## :star2: The missing Block
 Application has bottom sheet which displays weekly weather forecast for the user, your task is to implement WeatherDetailsBlock composable which is used to display information for each day. Use screenshots as design mockup. Remember to maintain expanded/collapsed row state after screen rotation.
 
-## Switch it
+## :star2: Switch it
 The user can conveniently tap on city name and pick another using list dialog. But it seems the data is not being updated. Your task is to fix this issue, following current state management logic.
 
 # Wrapping up
