@@ -21,4 +21,12 @@ The project uses simple dependency container. Let's improve it by implementing p
 Compose allows us to easily support both dark and light themes. Application already has all colors prepared, your task is to add implementation which would switch theme automatically depending on system settings.
 
 ## The missing Block
-Application has bottom sheet which displays weekly weather forecast for the user, your task is to implement WeatherDetailsBlock composable which is used to display information for each day. Use screenshots as design mockup.
+Application has bottom sheet which displays weekly weather forecast for the user, your task is to implement WeatherDetailsBlock composable which is used to display information for each day. Use screenshots as design mockup. Remember to maintain expanded/collapsed row state after screen rotation.
+
+## Switch it
+The user can conveniently tap on city name and pick another using list dialog. But it seems the data is not being updated. Your task is to fix this issue, following current state management logic.
+
+# Wrapping up
+After completing all quests, make sure that project is properly formatted with `spotless` and all tests complete with success. You can track current state using this badge: 
+
+![Workflow result](https://github.com/ets-recruiting/androiddev/workflows/Check/badge.svg)
